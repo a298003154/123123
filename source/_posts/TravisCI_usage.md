@@ -34,12 +34,12 @@ Travis CI 只支持 Github，不支持其他代码托管服务。这意味着，
 上述条件都准备好，就可以开始使用 Travis CI 了。
 
 （1）访问官方网站 [travis-ci.org](https://travis-ci.org/)，点击右上角的个人头像，使用 Github 账户登陆 Travis CI。
-![](./uploads/travis_ci_01.png '登陆')
+![](/img/TravisCI_usage/travis_ci_01.png '登陆')
 
 （2）Travis 会列出 Github 上面你的所有仓库，以及你所属于的组织。此时，选择你需要 Travis 帮你构建的仓库，打开仓库旁边的开关。一旦激活了一个仓库，Travis 会监听这个仓库的所有变化。
 
 在右上角你的账户名点击进入 Profile，在Repositories tab页点击Sync now同步你的github项目。
-![](./uploads/travis_ci_02.png '激活并监听仓库')
+![](/img/TravisCI_usage/travis_ci_02.png '激活并监听仓库')
 
 
 ## 配置Travis
@@ -164,7 +164,7 @@ $ git push -u origin dev
 ```
 push本地的代码至远程仓库之后，在 [travis-ci.org](https://travis-ci.org/) 后台查看相关情况。
 下面是成功的结果：
-![](./uploads/travis_ci_03.png '发布成功')
+![](/img/TravisCI_usage/travis_ci_03.png '发布成功')
 
 ## 报错问题
 1.Windows用户可能会出现如下错误:
